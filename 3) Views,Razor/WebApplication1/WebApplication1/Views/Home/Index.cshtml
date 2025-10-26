@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+    <h5>Time today: @DateTime.Now</h5>
+
+    @{
+        var name = "Shahzeel";
+    }
+
+    <h5>Hello from @name</h5>
+
+    @if (name.Equals("Shahzeel"))
+    {
+        <h5>This is true</h5>
+    }
+
+    <hr />
+
+    <!-- For loop: print numbers 1 to 10 -->
+    <h4>Numbers from 1 to 10:</h4>
+    @for (int i = 1; i <= 10; i++)
+    {
+        <h5>@i</h5>
+    }
+
+    <hr />
+
+    <!-- Foreach loop: print all names from a list -->
+    @{
+        var names = new List<string> { "Ali", "Ahmed", "Shahzeel", "Sara", "Zain" };
+    }
+
+    <h4>Names list:</h4>
+    @foreach (var n in names)
+    {
+        <h5>@n</h5>
+    }
+
+</div>
