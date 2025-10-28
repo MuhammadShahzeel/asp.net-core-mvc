@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "About";
+
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>@ViewBag.Message</p>
+
+<h3>Topics:</h3>
+<ul>
+    @foreach (var topic in ViewBag.Topics) // dont need to cast ViewBag
+    {
+        <li>@topic</li>
+    }
+</ul>
+
+<h3>Tools:</h3>
+<ul>
+    @foreach (var tool in ViewBag.Tools)
+    {
+        <li>@tool</li>
+    }
+</ul>
+
+
+//if data define using viewdata you can also access through viewbag vice virsa
+
+<h4>@ViewBag.data4</h4>

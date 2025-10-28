@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Home Page</h1>
+
+<p><strong>Data 1:</strong> @ViewData["data1"]</p>
+<p><strong>Data 2:</strong> @ViewData["data2"]</p>
+<p><strong>Data 3:</strong> @ViewData["data3"]</p>
+
+<h3>Array Data (data4):</h3>
+<ul>
+    @foreach (var item in (string[])ViewData["data4"])
+    {
+        <li>@item</li>
+    }
+</ul>
+
+<h3>List Data (data5):</h3>
+<ul>
+    @foreach (var course in (List<string>)ViewData["data5"])
+    {
+        <li>@course</li>
+    }
+</ul>
