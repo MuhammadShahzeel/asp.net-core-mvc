@@ -38,3 +38,12 @@ You get to know about the error only at runtime.
 
 // only access in which view where it define
 //dont need typecasting
+
+-------------
+1. TempData
+-------------
+
+only one time accessable 
+chahe apny pr access kro agr dusry pr bh kro to hojae ga requires redirect fro where it defined
+yeh agr  eg about controller my define h or call kr ra hun index pr to show hoga only one time use Keep if you want it is abvaialble
+// need typecasting

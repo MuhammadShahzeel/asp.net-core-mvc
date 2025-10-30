@@ -1,5 +1,6 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Build.Evaluation;
+using System.Diagnostics;
 using WebApplication1.Models;
 
 
@@ -28,7 +29,7 @@ namespace WebApplication1.Controllers
             // List
             List<string> courses = new List<string> { "HTML", "CSS", "JavaScript", "SQL" };
             ViewData["data5"] = courses;
-
+        
             return View();
         }
 
@@ -41,12 +42,21 @@ namespace WebApplication1.Controllers
             List<string> tools = new List<string> { "Visual Studio", "SQL Server", "Git", "Azure" };
             ViewBag.Tools = tools;
             ViewData["data4"] = 5;
-
+            //temp data sirf 1 dfa hota hy access chahe wo dusry page pr  ho
+            //inhy my index pr access krun ga
+            TempData["dat3"] = "tmp";
 
 
             return View();
         }
-        public IActionResult Contact() => View();
+        public IActionResult Contact() {
+            TempData.Keep();
+
+
+
+
+
+            return View(); }
         public IActionResult Privacy() => View();
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

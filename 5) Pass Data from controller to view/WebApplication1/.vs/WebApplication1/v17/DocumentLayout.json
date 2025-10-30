@@ -1,33 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\",
+  "WorkspaceRootPath": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) viewdata\\webapplication1\\webapplication1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) viewdata\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) pass data from controller to view\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) viewdata\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) viewdata\\webapplication1\\webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) viewdata\\webapplication1\\webapplication1\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) pass data from controller to view\\webapplication1\\webapplication1\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) viewdata\\webapplication1\\webapplication1\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) pass data from controller to view\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) pass data from controller to view\\webapplication1\\webapplication1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) pass data from controller to view\\webapplication1\\webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) pass data from controller to view\\webapplication1\\webapplication1\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) viewdata\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|d:\\dev\\mvc\\tutorial\\new folder\\5) pass data from controller to view\\webapplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C2A1362F-00B3-49E6-96B2-463269D14749}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -52,47 +52,47 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAmwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-26T00:42:25.358Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-26T21:38:46.766Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T21:38:46.766Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Contact.cshtml",
-              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Views\\Home\\Contact.cshtml",
+              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Contact.cshtml",
-              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\Home\\Contact.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Home\\Contact.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-26T21:30:07.932Z"
+              "WhenOpened": "2025-10-26T21:30:07.932Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -100,26 +100,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "About.cshtml",
-              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Views\\Home\\About.cshtml",
+              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\About.cshtml",
-              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Views\\Home\\About.cshtml",
+              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\Home\\About.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Home\\About.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-26T21:29:06.278Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAADgvyoAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAwwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-26T21:26:09.499Z",
               "EditorCaption": ""
@@ -128,9 +128,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "_Layout2.cshtml",
-              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout2.cshtml",
+              "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout2.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout2.cshtml",
-              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) ViewData\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout2.cshtml",
+              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout2.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout2.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
