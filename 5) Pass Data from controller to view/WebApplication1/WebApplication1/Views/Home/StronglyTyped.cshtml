@@ -1,0 +1,44 @@
+﻿@* //required to make it strongly typed view
+
+@model Employee
+@{
+    ViewData["Title"] = "StronglyTyped";
+}
+
+<h1>StronglyTyped</h1>
+
+<h2>@Model.Name</h2>
+
+// access single objects like this
+ *@
+
+
+ //required to make it strongly typed view for lists
+
+@model IEnumerable<Employee>
+@{
+    ViewData["Title"] = "StronglyTyped";
+}
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.Id</td>
+                <td>@emp.Name</td>
+                <td>@emp.Department</td>
+                <td>@string.Format("{0:N0}", emp.Salary)</td> @* optional formatting *@
+            </tr>
+        }
+    </tbody>
+</table>
+
+

@@ -9,7 +9,7 @@ data between controller and view:
 4. Strongly Typed Views
 
 -------------
-1. ViewData
+ ViewData
 -------------
 The general syntax of ViewData is as follows:
 
@@ -31,7 +31,7 @@ You get to know about the error only at runtime.
 //need typecasting
 
 -------------
-1. ViewBag
+ ViewBag
 -------------
 · The general syntax of ViewBag is as follows:
 . ViewBag.<PropertyName> = <Value>;
@@ -40,10 +40,34 @@ You get to know about the error only at runtime.
 //dont need typecasting
 
 -------------
-1. TempData
+ TempData
 -------------
 
 only one time accessable 
 chahe apny pr access kro agr dusry pr bh kro to hojae ga requires redirect fro where it defined
 yeh agr  eg about controller my define h or call kr ra hun index pr to show hoga only one time use Keep if you want it is abvaialble
 // need typecasting
+
+
+
+-------------
+ Strongly Typed Views
+-------------
+· Strongly typed view or strongly typed object
+is used to pass data from controller to a view.
+· The view which binds with any model is called
+as strongly typed view.
+. You can bind any class as a model to view.
+. You can access model properties on that view.
+. You can use data associated with model to
+render controls.
+
+passed in view like this 
+
+return View(data)
+
+in model use 
+for single obj 
+@model Employee
+for list
+@model IEnumerable<Employee>

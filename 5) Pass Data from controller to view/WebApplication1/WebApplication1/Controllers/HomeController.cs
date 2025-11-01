@@ -57,6 +57,36 @@ namespace WebApplication1.Controllers
 
 
             return View(); }
+
+
+        public IActionResult StronglyTyped()
+        {
+
+            //single object
+            //Employee emp = new Employee()
+            //{
+            //    Id = 1,
+            //    Name = "Ali Ahmed",
+            //    Department = "IT",
+            //    Salary = 85000
+            //};
+
+
+            var employees = new List<Employee>()
+            {
+                new Employee { Id = 1, Name = "Ali Ahmed", Department = "IT", Salary = 85000 },
+                new Employee { Id = 2, Name = "Sara Khan", Department = "HR", Salary = 72000 },
+                new Employee { Id = 3, Name = "Bilal Hussain", Department = "Finance", Salary = 95000 },
+                new Employee { Id = 4, Name = "Hina Raza", Department = "Marketing", Salary = 68000 }
+            };
+
+
+
+
+            return View(employees);
+        }
+
+
         public IActionResult Privacy() => View();
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

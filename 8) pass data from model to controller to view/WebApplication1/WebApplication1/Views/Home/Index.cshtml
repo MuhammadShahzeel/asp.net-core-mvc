@@ -1,0 +1,35 @@
+﻿@* 
+
+
+
+@* list *@\\@using WebApplication1.Models
+@{
+    ViewData["Title"] = "Employee List";
+
+    // ✅ Retrieve the list from ViewData and cast it
+    var employees = ViewData["Employees"] as List<Employee>;
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in employees!)
+        {
+            <tr>
+                <td>@emp.Id</td>
+                <td>@emp.Name</td>
+                <td>@emp.Department</td>
+                <td>@emp.Salary</td>
+            </tr>
+        }
+    </tbody>
+</table>

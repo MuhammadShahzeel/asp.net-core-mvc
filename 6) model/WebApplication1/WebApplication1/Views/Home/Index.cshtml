@@ -1,0 +1,32 @@
+﻿
+
+@{
+    ViewData["Title"] = "Student List";
+    var students = ViewBag.Students as List<StudentModel>;
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Student List</h2>
+
+    <table class="table table-bordered table-hover text-center">
+        <thead class="table-dark">
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Grade</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var student in students)
+            {
+                <tr>
+                    <td>@student.RollNo</td>
+                    <td>@student.Name</td>
+                    <td>@student.Gender</td>
+                    <td>@student.Grade</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
