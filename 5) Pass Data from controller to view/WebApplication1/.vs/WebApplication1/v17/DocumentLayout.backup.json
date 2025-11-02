@@ -62,12 +62,11 @@
               "Title": "Employee.cs",
               "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\Employee.cs",
-              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Models\\Employee.cs*",
-              "RelativeToolTip": "WebApplication1\\Models\\Employee.cs*",
+              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Models\\Employee.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Employee.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-31T23:35:01.688Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-31T23:35:01.688Z"
             },
             {
               "$type": "Document",
@@ -75,9 +74,9 @@
               "Title": "StronglyTyped.cshtml",
               "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\Home\\StronglyTyped.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\StronglyTyped.cshtml",
-              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\Home\\StronglyTyped.cshtml*",
-              "RelativeToolTip": "WebApplication1\\Views\\Home\\StronglyTyped.cshtml*",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAmwCkAAAAIAAAAAAAAAA==",
+              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Views\\Home\\StronglyTyped.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\StronglyTyped.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABEAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-31T23:28:03.463Z",
               "EditorCaption": ""
@@ -92,8 +91,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Home\\Contact.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-26T21:30:07.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T21:30:07.932Z"
             },
             {
               "$type": "Document",
@@ -113,12 +111,11 @@
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs*",
+              "ToolTip": "D:\\dev\\mvc\\tutorial\\New folder\\5) Pass Data from controller to view\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAD8AAAAAAAAAAAAkwEoAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T21:26:09.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T21:26:09.499Z"
             },
             {
               "$type": "Document",
@@ -130,8 +127,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Home\\About.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-26T21:29:06.278Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-26T21:29:06.278Z"
             },
             {
               "$type": "Document",
