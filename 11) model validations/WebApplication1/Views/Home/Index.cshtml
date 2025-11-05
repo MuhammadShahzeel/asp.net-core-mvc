@@ -1,0 +1,80 @@
+﻿@model Employee; //needed for form tag helper binding
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<form asp-controller="Home"  asp-action="Index" method="post" class="mt-4">
+    <div class="form-group mb-3">
+     
+        <label asp-for="Name" class="form-label"></label>
+        <input asp-for="Name" class="form-control" placeholder="Enter your name" />
+        @* // to show error message if validation fails *@
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    @* dropdown *@
+    <div class="form-group mb-3">
+        <label asp-for="Gender" class="form-label"></label>
+        <select asp-for="Gender" class="form-select"
+                asp-items="Html.GetEnumSelectList<Gender>()">
+            <option value="">-- Select Gender --</option>
+        </select>
+        <span asp-validation-for="Gender" class="text-danger"></span>
+    </div>
+    <!-- Marital Status Radio Buttons -->
+    <div class="form-group mb-3">
+        <label asp-for="MaritalStatus" class="form-label d-block">Marital Status</label>
+
+        <div class="form-check form-check-inline">
+            <input asp-for="MaritalStatus" class="form-check-input" type="radio" value="Married" id="married" />
+            <label class="form-check-label" for="married">Married</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+            <input asp-for="MaritalStatus" class="form-check-input" type="radio" value="Unmarried" id="unmarried" />
+            <label class="form-check-label" for="unmarried">Unmarried</label>
+        </div>
+
+        <span asp-validation-for="MaritalStatus" class="text-danger"></span>
+    </div>
+
+    <!-- Address TextArea -->
+    <div class="form-group mb-3">
+        <label asp-for="Address" class="form-label"></label>
+        <textarea asp-for="Address" class="form-control" rows="3" placeholder="Enter your address"></textarea>
+       
+    </div>
+    <!-- Email Input -->
+    <div class="form-group mb-3">
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" class="form-control" placeholder="Enter your email" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <!-- Age Input -->
+    <div class="form-group mb-3">
+        <label asp-for="Age" class="form-label"></label>
+        <input asp-for="Age" class="form-control" placeholder="Enter your age" type="number" />
+        <span asp-validation-for="Age" class="text-danger"></span>
+    </div>
+    <div class="form-group mb-3">
+        <label asp-for="Phone" class="form-label"></label>
+        <input asp-for="Phone" class="form-control" placeholder="Enter your phone number" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+    <div class="form-group mb-3">
+        <label asp-for="Password" class="form-label"></label>
+        <input asp-for="Password" class="form-control" placeholder="Enter your password" type="password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mb-3">
+        <label asp-for="ConfirmPassword" class="form-label"></label>
+        <input asp-for="ConfirmPassword" class="form-control" placeholder="Confirm your password" type="password" />
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
